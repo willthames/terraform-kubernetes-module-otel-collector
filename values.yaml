@@ -1,0 +1,9 @@
+config:
+  exporters:
+    jaeger:
+      endpoint: http://tempo-tempo-distributed-distributor.monitoring.svc.cluster.local:14268
+  service:
+    pipelines:
+      traces:
+        exporters:
+          - jaeger

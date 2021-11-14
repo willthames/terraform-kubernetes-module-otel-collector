@@ -1,0 +1,4 @@
+resources:
+  - templates/configmap-agent.yaml
+  - templates/daemonset.yaml
+  - templates/serviceaccount.yaml
