@@ -1,6 +1,6 @@
 data "kustomization_overlay" "resources" {
   resources = [
-    "${path.module}/base"
+    "${path.module}/all"
   ]
 }
 
